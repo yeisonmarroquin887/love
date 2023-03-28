@@ -27,8 +27,8 @@ b{
     
     font-family: 'pacifico', cursive;
     padding-top: 4.9rem;
-    color: rgb(146, 7, 7);
-    text-shadow: 3px 3px 3px #fff;
+    color: rgb(148, 27, 27);
+    text-shadow: 3px 3px 3px black;
 }
 @media(min-width: 700px){
     .p{
@@ -52,7 +52,7 @@ b{
     
         font-family: 'pacifico', cursive;
         padding-top: 4.9rem;
-        color: rgb(146, 7, 7);
+        color: rgb(136, 24, 24);
         text-shadow: 4px 6px 2px rgb(17, 16, 16);
     }
   
