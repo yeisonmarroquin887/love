@@ -23,7 +23,7 @@ background-color: rgba(240, 248, 255, 0.164);
 cursor: pointer;
 }
 .html{
-    background-image: url(./backgraouds/fondo6.png);
+    background-image: url(./public/backgraouds/fondo6.png);
 }
 .video{
     border-style: dotted;
@@ -64,8 +64,8 @@ h2{
         width:795px;
          height: 480px;
     }
-    html{
-        background-image: url(./backgraouds/fondo6.png);
+    .html{
+        background-image: url(./public/backgraouds/fondo6.png);
        
     }
     h2{
@@ -77,4 +77,5 @@ h2{
         text-align: center;
         color: black;
     }
+   
 }

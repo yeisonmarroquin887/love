@@ -27,5 +27,9 @@ a{
         display: grid;
         color: brown;
         border-style: dotted;
+    
+    }
+    body{
+        background-image: url(./backgraouds/fondo6.png);;
     }
 }
