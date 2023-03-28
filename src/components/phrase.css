@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.p{
+    box-shadow:
+       inset 0 -3em 3em rgba(241, 235, 235, 0.822),
+             0 0  0 2px rgba(255, 255, 255, 0.205),
+             0.3em 0.3em 1em rgba(216, 214, 214, 0.925);
+        background-color: rgba(240, 248, 255, 0.164);    
+        border-style: dotted;
+    padding: 1rem;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 1rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+    text-shadow: 3px 3px 3px #fff;
+ 
+
+}
+b{
+    color: rgb(231, 8, 8);
+    font-family: 'pacifico', cursive;
+    text-shadow: 3px 3px 3px white;
+}
+#tittle{
+    
+    font-family: 'pacifico', cursive;
+    padding-top: 4.9rem;
+    color: rgb(146, 7, 7);
+    text-shadow: 3px 3px 3px #fff;
+}
+@media(min-width: 700px){
+    .p{
+        box-shadow:
+           inset 0 -3em 3em rgba(241, 235, 235, 0.822),
+                 0 0  0 2px rgba(231, 223, 223, 0.205),
+                 0.3em 0.3em 1em rgba(216, 214, 214, 0.925);
+            background-color: rgba(240, 248, 255, 0.267);    
+            border-style: dotted;
+          
+        padding: 1rem;
+        max-width: 610px;
+        margin: auto;
+        border-radius: 1rem;
+        font-family: 'pacifico', cursive;
+        font-size: 1.2rem;
+        color: black;
+    
+    }
+    #tittle{
+    
+        font-family: 'pacifico', cursive;
+        padding-top: 4.9rem;
+        color: rgb(146, 7, 7);
+        text-shadow: 4px 6px 2px rgb(17, 16, 16);
+    }
+}
