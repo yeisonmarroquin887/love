@@ -21,18 +21,19 @@ function App() {
     setMoneyRandom(getRandonMoney(arraymoney))
   }
 
-  const appStyle = {
-   backgroundImage: `url('./backgraouds/fondo${moneyRandom}.png')`
-  }
+
   
   
 
   return (
-  <div style={appStyle} className="App">
+  <div className="App">
    <Phrase 
-     Phrases={getRandonArray(Phrases)}
+     Phrases={
+      getRandonArray(Phrases)
+    }
      clickButton={clickButton}
      moneyRandon={getRandonMoney}
+     image={moneyRandom}
     />
 
   </div>

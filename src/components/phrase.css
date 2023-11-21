@@ -1,59 +1,45 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.p{
-    box-shadow:
-       inset 0 -3em 3em rgba(241, 235, 235, 0.822),
-             0 0  0 2px rgba(255, 255, 255, 0.205),
-             0.3em 0.3em 1em rgba(216, 214, 214, 0.925);
-        background-color: rgba(240, 248, 255, 0.164);    
-        border-style: dotted;
-    padding: 1rem;
-    max-width: 350px;
-    margin: auto;
-    border-radius: 1rem;
+.phrase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phrase_image{
+    width: 100%;
+    margin-top: em;
+    padding: 1em;
+}
+.phrase_image > img {
+    border-radius: .5em;
+    object-fit: contain;
+    width: 100%;
+    max-width: 15em;
+    border: 4px solid red;
+    background-color: red;
+}
+.phrase_title > h1 {
+    font-size: 1.5em;
     font-family: 'Pacifico', cursive;
-    font-size: 1rem;
-    text-shadow: 3px 3px 3px #fff;
- 
-
+    color: red;
+    line-height: 1
 }
-b{
-    color: rgb(231, 8, 8);
-    font-family: 'pacifico', cursive;
-    text-shadow: 3px 3px 3px white;
+.phrases{
+    font-size: 1.2em;
+    font-family: 'Pacifico', cursive;
 }
-#tittle{
-    
-    font-family: 'pacifico', cursive;
-    padding-top: 4.9rem;
-    color: rgb(148, 27, 27);
-    text-shadow: 3px 3px 3px black;
+.Phrases_Autor{
+    font-size: 1.3em;
+    font-family: 'Pacifico', cursive;
+    color: red;
 }
-@media(min-width: 700px){
-    .p{
-        box-shadow:
-           inset 0 -3em 3em rgba(241, 235, 235, 0.822),
-                 0 0  0 2px rgba(231, 223, 223, 0.205),
-                 0.3em 0.3em 1em rgba(216, 214, 214, 0.925);
-            background-color: rgba(240, 248, 255, 0.267);    
-            border-style: dotted;
-          
-        padding: 1rem;
-        max-width: 610px;
-        margin: auto;
-        border-radius: 1rem;
-        font-family: 'pacifico', cursive;
-        font-size: 1.2rem;
-        color: black;
-    
-    }
-    #tittle{
-    
-        font-family: 'pacifico', cursive;
-        padding-top: 4.9rem;
-        color: rgb(136, 24, 24);
-        text-shadow: 4px 6px 2px rgb(17, 16, 16);
-    }
+#audio-container {
+    padding: 10px;
+  }
   
-}
+  #audio-player {
+    width: 100%;
+  }
+  
