@@ -34,7 +34,7 @@ const Phrase = ({ Phrases, clickButton, moneyRandon, image }) => {
         
       <div id="audio-container">
   <audio controls autoplay id="reproductor" style={{ width: '', height: "1.5em" }}>
-    <source src={`../../public/auds/au${song}.mp3`} type="audio/mp3" />
+    <source src={`./auds/au${song}.mp3`} type="audio/mp3" />
   </audio>
 </div>
 
