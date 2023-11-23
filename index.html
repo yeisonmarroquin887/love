@@ -3,13 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="./public/backgraouds/fondo1.png">
+    <link rel="manifest" href="/manifest.json" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
     <title>❤️❤️I adore you my love❤️❤️</title>
   </head>
   <body>
    <div class="color">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js').then((registration) => {
+          console.log('Service Worker registrado con éxito:', registration);
+        }).catch((error) => {
+          console.error('Error al registrar el Service Worker:', error);
+        });
+      }
+    </script>
   </div>
   </body>
 </html>
